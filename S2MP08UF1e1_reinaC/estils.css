@@ -1,0 +1,296 @@
+body{
+  background-color: #222;
+}
+
+li{
+  display: inline-block;
+  color: #FFF;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: helvetica;
+}
+
+#barra{
+  background-color: black;
+  opacity: 50%;
+  height: 3.125rem;
+}
+
+
+.titols{
+width: 100%;
+float: left;
+}
+
+
+#vistos{
+width: 100%;
+float: left;
+}
+
+.pendents{
+  width: 100%;
+float: left;
+}
+
+#pelivistes{
+width: 100%;
+float: left;
+}
+
+.series{
+width: 100%;
+float: left;
+}
+
+#svistes{
+  width: 100%;
+  float: left;
+}
+
+
+img:hover{
+  opacity: 50%;
+}
+
+#any{
+  float: right;
+}
+
+
+
+h1{
+  font-family: helvetica;
+  color: #CCC;
+}
+
+h4{
+  font-family: helvetica;
+  font-size: 14px;
+  color: #CCC;
+  margin: 0;
+}
+
+h5{
+  font-size: 0.6875rem;
+  color: #CCC;
+  font-family: helvetica;
+  float: left;
+  margin-right:
+}
+
+
+.uno{
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.dos{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.tres{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.cuatro{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.cinco{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.seis{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.siete{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.ocho{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.nueve{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.diez{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+.once{
+
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+
+
+
+
+
+
+
+
+.v1{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.v2{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.v3{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.v4{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+
+
+
+
+
+
+.p1{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.p2{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+.pv1{
+  -webkit-filter: grayscale (100%);
+  -moz-filter: grayscale (100%);
+  filter: grayscale(100%);
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.pv2{
+  -webkit-filter: grayscale (100%);
+  -moz-filter: grayscale (100%);
+  filter: grayscale(100%);
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+
+
+
+
+
+.s1{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.s2{
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+
+
+
+
+.sv1{
+  -webkit-filter: grayscale (100%);
+  -moz-filter: grayscale (100%);
+  filter: grayscale(100%);
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+.sv2{
+  -webkit-filter: grayscale (100%);
+  -moz-filter: grayscale (100%);
+  filter: grayscale(100%);
+  width: 175px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
