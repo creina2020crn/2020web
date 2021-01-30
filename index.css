@@ -223,6 +223,7 @@ body{
 
   p{
     font-size: 25px;
-    font-family: monaco;
-    color: red;
+    font-family: Helvetica;
+    color: tomato;
+    margin-top: 3rem;
   }
