@@ -1,0 +1,237 @@
+body{
+  font-family: helvetica;
+  font-size: 1.5rem;
+  line-height: 7.5rem;
+  text-align: center;
+  background-image: url(img/g1.gif);
+}
+
+@font-face {
+
+  font-family: 'Helvetica';
+  src: url("fonts/Helvetica");
+  font-weight: bold;
+
+}
+
+  li{
+    display: block;
+    height: 15rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-left: 2.5rem;
+    background-color: white;
+    float: left;
+  }
+
+  #a00{
+
+  background-size: 100%;
+  background-image: url(img/door1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10%;
+  }
+
+      #a00:hover{
+      background-image: url(img/a00.png);
+      opacity: 1;
+    }
+
+  #a01{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+  }
+
+      #a01:hover{
+      background-image: url(img/a01.png);
+      opacity: 1;
+    }
+
+  #a02{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+  }
+
+      #a02:hover{
+      background-image: url(img/a02.png);
+      opacity: 1;
+    }
+
+  #a02_2{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+  }
+
+      #a02_2:hover{
+      background-image: url(img/a02_2.png);
+      opacity: 1;
+    }
+
+  #a02_3{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+  }
+
+      #a02_3:hover{
+      background-image: url(img/a02_3.png);
+      opacity: 1;
+    }
+
+  #a03{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+  }
+
+      #a03:hover{
+      background-image: url(img/a03.png);
+      opacity: 1;
+    }
+
+  #a04{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+  }
+
+      #a04:hover{
+      background-image: url(img/a04.png);
+      opacity: 1;
+    }
+
+  #a05{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    }
+
+        #a05:hover{
+        background-image: url(img/a05.png);
+        opacity: 1;
+      }
+
+
+
+  #b01{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    }
+
+        #b01:hover{
+        background-image: url(img/b01.png);
+        opacity: 1;
+        }
+
+
+  #b02{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    }
+
+        #b02:hover{
+        background-image: url(img/b02.png);
+        opacity: 1;
+          }
+
+
+  #b03{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    }
+
+        #b03:hover{
+        background-image: url(img/b03.png);
+        opacity: 1;
+        }
+
+
+  #b04{
+  background-size: 100%;
+  background-image: url(img/door1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10%;
+  }
+
+      #b04:hover{
+      background-image: url(img/b04.png);
+      opacity: 1;
+      }
+
+
+
+  #b05{
+  background-size: 100%;
+  background-image: url(img/door1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10%;
+  }
+
+      #b05:hover{
+      background-image: url(img/b05.png);
+      opacity: 1;
+      }
+
+
+  #b06{
+  background-size: 100%;
+  background-image: url(img/door1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10%;
+  }
+
+      #b06:hover{
+      background-image: url(img/b06.png);
+      opacity: 1;
+      }
+
+  #b07{
+    background-size: 100%;
+    background-image: url(img/door1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    }
+
+       #b07:hover{
+       background-image: url(img/);
+       opacity: 1;
+        }
+
+
+  p{
+    font-size: 25px;
+    font-family: Helvetica;
+    color: tomato;
+    margin-top: 3rem;
+  }
