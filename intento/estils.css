@@ -1,0 +1,49 @@
+body{
+  background: skyblue;
+}
+
+.cabezera{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  position: fixed;
+  z-index: 20;
+}
+
+
+li{
+  font-family: helvetica;
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin: 15px;
+  transform: translateX(980px);
+}
+
+.logocap{
+  height: 70px;
+  width: 70px;
+  position:absolute;
+}
+
+.parte1{
+  height: 800px;
+  width: 100%;
+  background: red;
+  position: relative;
+    z-index: 10;
+}
+
+.parte2{
+  height: 800px;
+  width: 100%;
+  background: blue;
+    z-index: 5;
+}
+
+.parte3{
+  height: 800px;
+  width: 100%;
+  background: green;
+    z-index: 1;
+}
