@@ -6,6 +6,14 @@ body{
   background-image: url(img/g1.gif);
 }
 
+@font-face {
+
+  font-family: 'Helvetica';
+  src: url("fonts/Helvetica");
+  font-weight: bold;
+
+}
+
   li{
     display: block;
     height: 15rem;
