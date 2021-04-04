@@ -1,0 +1,452 @@
+body{
+  margin: 150px;
+  padding: 20px;
+  background: url(img/mario.gif);
+  background-size: 100%;
+}
+
+#bola{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  animation-name: anibola;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes anibola {
+  0%{background: grey; left:0px; top:0px;}
+  20%{background: green; left: 1100px; top: 0px;}
+  50%{background: pink; left: 1100px; top:2000px;}
+  75%{background: yellow; left:-150px; top:2000px;}
+  100%{background: blue; left:-150px; top:0px;
+}
+}
+
+
+
+#bola2{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  animation-name: anibola2;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes anibola2 {
+  0%{background: white; left:0px; top:0px;}
+  20%{background: black; left: 1100px; top: 0px;}
+  50%{background: orange; left: 1100px; top:1950px;}
+  75%{background: skyblue; left:-150px; top:1950px;}
+  100%{background: tomato; left:-150px; top:0px;
+}
+}
+
+
+li{
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.part1{
+  display: inline-block;
+  margin: auto;
+
+}
+
+.cont1{
+  height: 15rem;
+  width: 12rem;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  box-shadow: black 5px  0 10px;
+  margin-bottom: 100px;
+}
+
+h1{
+font-family: Arial;
+color: white;
+text-align: center;
+display:  run-in;
+text-decoration: none;
+background-size: auto;
+pointer-events: none;
+cursor: default;
+font-family: 'Zilla Slab Highlight', cursive;
+}
+
+audio{
+margin: 0;
+padding: 0;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 20px;
+  transform: translateY(200px);
+  background: #68260B;
+  color: white;
+}
+
+
+
+
+#inici{
+  height: 15rem;
+  width: 12rem;
+  background-image: url(img/door1.png);
+  background-position: center;
+  background-size: cover;
+  transform-origin: center;
+}
+
+    #inici:hover{
+    background-image: url(img/a00.png);
+    opacity: 1;
+    transform: rotateY(25deg);
+    transform-origin: center;
+    perspective: 20rem;
+    transition: 1s;
+  }
+
+#feedly{
+    height: 15rem;
+    width: 12rem;
+    background-image: url(img/door1.png);
+    background-position: center;
+    background-size: cover;
+    transform-origin: center;
+    }
+
+    #feedly:hover{
+      background-image: url(img/a01.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+    }
+
+#feedlymov{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #feedlymov:hover{
+      background-image: url(img/00_mov.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#float{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #float:hover{
+      background-image: url(img/a02.png);
+      background-size: cover;
+      background-position: center;
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+    }
+
+
+#float2{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #float2:hover{
+      background-image: url(img/a02_2.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#float3{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #float3:hover{
+      background-image: url(img/a02_3.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#escacs{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #escacs:hover{
+      background-image: url(img/a03.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+
+#responsive{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #responsive:hover{
+      background-image: url(img/a04.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+
+#cara{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #cara:hover{
+      background-image: url(img/a05.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+
+
+  .part2{
+    clear: both;
+    pointer-events: none;
+    cursor: default;
+  }
+
+
+#banner{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #banner:hover{
+      background-image: url(img/b01.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#bus{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #bus:hover{
+      background-image: url(img/b02.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#cotxes{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #cotxes:hover{
+      background-image: url(img/b03.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#bambes{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #bambes:hover{
+      background-image: url(img/b04.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#diapos{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #diapos:hover{
+      background-image: url(img/b05.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#diapos2{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #diapos2:hover{
+      background-image: url(img/b06.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#octavo{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #octavo:hover{
+      background-image: url(img/b01.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+
+  .part3{
+    clear: both;
+
+  }
+
+
+
+#examen{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #examen:hover{
+      background-image: url(img/ex1.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+#examen2{
+      height: 15rem;
+      width: 12rem;
+      background-image: url(img/door1.png);
+      background-position: center;
+      background-size: cover;
+      transform-origin: center;
+      }
+
+    #examen2:hover{
+      background-image: url(img/ex2.png);
+      opacity: 1;
+      transform: rotateY(25deg);
+      transform-origin: center;
+      perspective: 20rem;
+      transition: 1s;
+      }
+
+.part4{
+  clear: both;
+
+}

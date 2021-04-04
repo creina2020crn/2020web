@@ -1,0 +1,53 @@
+.tablero{
+  height: 800px;
+  width: 800px;
+  background-color: #BDB78B;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  float: left;
+}
+
+b {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: radial-gradient(#1C1C1C 25%, #BDBDBD);
+  background-size: 200% 200%;
+  background-position: -10% -10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+.imparell b{
+  background-image: radial-gradient(#F3C723, black);
+}
+
+.imparell:nth-child(2n) b{
+  background-image: radial-gradient(yellow, black);
+}
+
+i {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: radial-gradient(white 10%, #888888);
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.parell{
+  background-color: white;
+  float: left;
+}
+
+.imparell{
+  float: left;
+  background-image: linear-gradient(150deg, violet, #4B088A);
+}

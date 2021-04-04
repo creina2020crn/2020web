@@ -1,0 +1,141 @@
+body{
+  background: url(img/fons.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+span{
+  color: grey;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+
+.cap{
+  height: 589px;
+  width: 940px;
+  display: block;
+  margin: auto;
+}
+
+.animacio{
+  height: 589px;
+  width: 940px;
+  background-image: url(img/ani/pulp.png);
+  background-size: cover;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example{
+  0%{background-image:url(img/ani/taxi.png);}
+  11.1%{background-image:url(img/ani/bond.png);}
+  22.2%{background-image:url(img/ani/ghost.png);}
+  33.3%{background-image:url(img/ani/bean.png);}
+  44.4%{background-image:url(img/ani/back.png);}
+  55.5%{background-image:url(img/ani/rider.png);}
+  77.7%{background-image:url(img/ani/team.png);}
+  100%{background-image:url(img/ani/break.png);}
+}
+
+
+
+.cos{
+  height: 809px;
+  width: 940px;
+  display: block;
+  margin: auto;
+}
+
+.pelis{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-image: url(img/small/small_pulp.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  transform-origin: left;
+}
+
+.pelis:hover{
+  opacity: 1;
+  transform: rotateY(25deg);
+  transform-origin: left;
+  perspective: 4000px;
+  transition: 1s;
+}
+
+.pelis p{
+  width: 300px;
+  height: 40px;
+  background: white;
+  position: relative;
+  transform: translateY(150px);
+  font-family: Helvetica;
+  line-height: 40px;
+}
+
+
+
+
+#taxi{
+  background: url(img/small/small_taxi.jpg);
+  background-size: cover;
+}
+
+#gold{
+  background: url(img/small/small_bond.jpg);
+  background-size: cover;
+}
+
+#ghost{
+  background: url(img/small/small_ghost.jpg);
+  background-size: cover;
+}
+
+#bean{
+  background: url(img/small/small_bean.jpg);
+  background-size: cover;
+}
+
+#future{
+  background: url(img/small/small_back.jpg);
+  background-size: cover;
+}
+
+#rider{
+  background: url(img/small/small_rider.jpg);
+  background-size: cover;
+}
+
+#team{
+  background: url(img/small/small_team.jpg);
+  background-size: cover;
+}
+
+#bad{
+  background: url(img/small/small_break.jpg);
+  background-size: cover;
+}
+
+.peu{
+  height: 220px;
+  width: 940px;
+  margin: auto;
+  display: block;
+}
+
+#logo{
+  transform: translateX(370px);
+}
