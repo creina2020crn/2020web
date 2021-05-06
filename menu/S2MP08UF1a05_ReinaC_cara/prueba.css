@@ -1,0 +1,354 @@
+body{
+ background-color: skyblue;
+}
+
+.pelo{
+  height:40rem;
+  width:40rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+#rizo1{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(10rem);
+}
+
+#rizo2{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(20rem);
+}
+
+#rizo3{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(28rem) translateY(3rem);
+}
+
+#rizo4{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(30rem) translateY(10rem);
+}
+
+#rizo5{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(30rem) translateY(18rem);
+}
+
+#rizo6{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(30rem) translateY(26rem);
+}
+
+#rizo7{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(30rem) translateY(34rem);
+}
+
+#rizo8{
+  background-color: #451B05;
+  height: 38rem;
+  width: 30rem;
+  position: absolute;
+  transform: translateX(5rem) translateY(5rem);
+}
+
+#rizo9{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(15rem) translateY(0rem);
+}
+
+#rizo10{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(2rem) translateY(3rem);
+}
+
+#rizo11{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(0rem) translateY(10rem);
+}
+
+#rizo12{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(0rem) translateY(18rem);
+}
+
+#rizo13{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(0rem) translateY(26rem);
+}
+
+#rizo14{
+  background-color: #451B05;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(0rem) translateY(34rem);
+}
+
+.cara{
+  background-color: #F5C4A6;
+  height: 35rem;
+  width: 27rem;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -30rem;
+  border-radius: 0 0 15rem 15rem;
+}
+
+.flequillo{
+  width: 27rem;
+  height: 5rem;
+}
+
+#fle1{
+  height: 5rem;
+  width: 10rem;
+  float: left;
+  background-color: #451B05;
+  border-radius: 0 0 5rem 0;
+}
+
+#fle2{
+  height: 5rem;
+  width: 10rem;
+  float:right;
+  background-color: #451B05;
+  border-radius: 0 0 0 5rem;
+}
+
+#peca{
+  height: 1rem;
+  width: 1rem;
+  background-color: #451B05;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem #934A11;
+}
+
+.celles{
+  height: 5rem;
+  width: 27rem;
+  margin: 0 auto;
+}
+
+#cella1{
+  background-color: #451B05;
+  float: left;
+  height: 1.3rem;
+  width: 10rem;
+  border-radius: 3rem 0 0 0;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  animation-name: myanimacion;
+  animation-duration: 3s;
+  animation-delay: ;
+  position: relative;
+}
+
+@keyframes myanimacion {
+0%{top: 0%;}
+50%{top:2.3rem;}
+}
+
+
+#cella2{
+  background-color: #451B05;
+  float: right;
+  height: 1.3rem;
+  width: 10rem;
+  border-radius: 0 3rem 0 0;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  animation-name: myanimacion2;
+  animation-duration: 3s;
+  animation-delay: ;
+  position: relative;
+}
+
+@keyframes myanimacion2 {
+0%{top: 0%;}
+50%{top:-2.3rem;}
+}
+
+.ulls{
+  height: 5rem;
+  width: 27rem;
+}
+
+#ull1{
+  background-color: white;
+  height: 4.5rem;
+  width: 8rem;
+  float: left;
+  margin-left: 2rem;
+  border-radius: 50%;
+  border-color: #E6A67F;
+  border-style: solid;
+}
+
+#ull2{
+  background-color: white;
+  height: 4.5rem;
+  width: 8rem;
+  float:right;
+  margin-right: 2rem;
+  border-radius: 50%;
+  border-color: #E6A67F;
+  border-style: solid;
+}
+
+#pupila1{
+  background-color: black;
+  height: 4.2rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  border-color: #824D04;
+  border-style: solid;
+  box-shadow: inset 0 0 1rem 1rem #6B3A0E;
+}
+
+#pupila2{
+  background-color: black;
+  height: 4.2rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  border-color: #824D04;
+  border-style: solid;
+  box-shadow: inset 0 0 1rem 1rem #6B3A0E;
+}
+
+.nas{
+  width: 27rem;
+  height: 10rem;
+}
+
+#nasesq{
+  background-color: #E1B194;
+  width: 0.5rem;
+  height: 7rem;
+  float: left;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  border-radius: 0 0 0 10rem;
+}
+
+#nasdret{
+  background-color: #E1B194;
+  width: 0.5rem;
+  height: 7rem;
+  margin-top: 4rem;
+  margin-right: 1rem;
+  float: right;
+  border-radius: 0 0 10rem;
+}
+
+#nasbaix{
+  background-color: transparent;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 50%;
+  transform: translateX(11rem) translateY(10rem);
+  box-shadow: -3px 9px #E1B194;
+}
+
+.boca{
+  background-color: transparent;
+  height: 2rem;
+  width: 12rem;
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-left: 7.2rem;
+  border-radius: 50%;
+  box-shadow: -3px 9px #FA8B7E;
+  z-index: 20;
+}
+
+.contenedor{
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  transform: translateX(170px) translateY(130px);
+  opacity: 0;
+}
+
+.contenedor:hover{
+  opacity: 100;
+}
+
+
+.contenedor::before{
+  background-color: white;
+  border: solid 2px #EDEDED;
+  height: 48px;
+  width: 40px;
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 0 0 5px 5px;
+}
+
+
+.contenedor::after{
+  background-color: white;
+    border: solid 2px #EDEDED;
+  height: 48px;
+  width: 40px;
+  content: "";
+  display: block;
+  position: absolute;
+  transform: translateX(42px);
+  border-radius: 0 0 5px 5px;
+}
