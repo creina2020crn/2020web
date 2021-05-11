@@ -1,0 +1,226 @@
+/*
+	@name treball_o_ble_movil
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 375px;  margin-left: auto; margin-right: auto;  }
+
+#_bg__botiga {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 667px;
+	background:rgba(255,255,255,1);
+}
+
+
+#vector {
+	top: 56px;
+	left: 0px;
+	width: 375px;
+	height: 1245px;
+}
+
+
+#banner {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 55px;
+	background:rgba(255,255,255,1);
+}
+
+
+#vector_ek1 {
+	top: 17.36px;
+	left: 333.14px;
+	width: 12.73px;
+	height: 12.73px;
+}
+
+
+#vector_ek2 {
+	top: 11px;
+	left: 322px;
+	width: 35px;
+	height: 35px;
+}
+
+
+#_o_ble {
+	top: 7px;
+	left: 139px;
+	width: 120px;
+	height: 67px;
+	overflow: hidden;
+	font-family: Arial Rounded MT Bold;
+	font-size: 36px;
+	text-align: left;
+	color:#0C4385;
+}
+
+
+#rectangle_43 {
+	top: 590px;
+	left: -9px;
+	width: 393px;
+	height: 190px;
+	background:rgba(121,183,212,1);
+}
+
+
+#rectangle_45 {
+	top: 832px;
+	left: -9px;
+	width: 393px;
+	height: 190px;
+	background:rgba(121,183,212,1);
+}
+
+
+#rectangle_47 {
+	top: 1074px;
+	left: -9px;
+	width: 393px;
+	height: 190px;
+	background:rgba(121,183,212,1);
+}
+
+
+#_rectangle_44 {
+	top: 610px;
+	left: 15px;
+	width: 128px;
+	height: 149px;
+}
+
+
+#_rectangle_46 {
+	top: 852px;
+	left: 15px;
+	width: 128px;
+	height: 149px;
+}
+
+
+#_rectangle_48 {
+	top: 1094px;
+	left: 15px;
+	width: 128px;
+	height: 149px;
+}
+
+
+#_gorro_o_ble {
+	top: 668px;
+	left: 163px;
+	width: 220px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_banyador_o_ble {
+	top: 910px;
+	left: 163px;
+	width: 220px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_ampolla_o_ble {
+	top: 1152px;
+	left: 163px;
+	width: 220px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_6 {
+	top: 107px;
+	left: -9px;
+	width: 393px;
+	height: 190px;
+	background:rgba(121,183,212,1);
+}
+
+
+#rectangle_16 {
+	top: 349px;
+	left: -9px;
+	width: 393px;
+	height: 190px;
+	background:rgba(121,183,212,1);
+}
+
+
+#_rectangle_12 {
+	top: 127px;
+	left: 15px;
+	width: 128px;
+	height: 149px;
+}
+
+
+#_rectangle_17 {
+	top: 369px;
+	left: 15px;
+	width: 128px;
+	height: 149px;
+}
+
+
+#_samarreta_o_ble {
+	top: 185px;
+	left: 163px;
+	width: 220px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_tassa_o_ble {
+	top: 427px;
+	left: 163px;
+	width: 220px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+
+/* Add your custom CSS here */
