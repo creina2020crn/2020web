@@ -1,0 +1,295 @@
+/*
+	@name treball_o_ble_movil
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 375px;  margin-left: auto; margin-right: auto;  }
+
+#_bg__el_meu_perfil {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 667px;
+	background:rgba(255,255,255,1);
+}
+
+
+#vector {
+	top: 55px;
+	left: 0px;
+	width: 375px;
+	height: 612px;
+}
+
+
+#banner {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 55px;
+	background:rgba(255,255,255,1);
+}
+
+#perfil {
+	top: 11px;
+	left: 322px;
+	width: 35px;
+	height: 35px;
+}
+
+#vector_ek1 {
+	top: 6px;
+	left: 11px;
+	width: 12.73px;
+	height: 12.73px;
+}
+
+
+#vector_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 35px;
+	height: 35px;
+}
+
+
+#_o_ble {
+	top: 6px;
+	left: 139px;
+	width: 120px;
+	height: 67px;
+	overflow: hidden;
+	font-family: Arial Rounded MT Bold;
+	font-size: 36px;
+	text-align: left;
+	color:#0C4385;
+}
+
+
+#pol {
+	top: 134px;
+	left: 201px;
+	width: 41px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#reina_cebrian {
+	top: 164px;
+	left: 201px;
+	width: 170px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#edad_25_anys__16_04_1996_ {
+	top: 354px;
+	left: 37px;
+	width: 157px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#pes__kg__74 {
+	top: 354px;
+	left: 209px;
+	width: 68px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#altura__cm__1_84 {
+	top: 354px;
+	left: 273px;
+	width: 85px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#dades_personals {
+	top: 325px;
+	left: 39px;
+	width: 117px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#els_meus_gustos {
+	top: 422px;
+	left: 39px;
+	width: 116px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#barra_separadora {
+	top: 400px;
+	left: 39px;
+	width: 307.5px;
+	height: 0px;
+}
+
+
+#barra_separadora_ek1 {
+	top: 523px;
+	left: 39px;
+	width: 307.5px;
+	height: 0px;
+}
+
+
+#vector_ek3 {
+	top: 468px;
+	left: 61px;
+	width: 31px;
+	height: 31px;
+}
+
+
+#vector_ek4 {
+	top: 465px;
+	left: 176px;
+	width: 31px;
+	height: 37px;
+}
+
+
+#vector_ek5 {
+	top: 465px;
+	left: 292px;
+	width: 27px;
+	height: 37px;
+}
+
+
+#puntaci__actual {
+	top: 219px;
+	left: 201px;
+	width: 137px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_6234_bubbles__bb_ {
+	top: 243px;
+	left: 203px;
+	width: 131px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_5 {
+	top: 592px;
+	left: 128px;
+	width: 129px;
+	height: 45px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(255,255,255,1);
+}
+
+
+#editar {
+	top: 601px;
+	left: 152px;
+	width: 98px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	color:#0C4385;
+}
+
+
+#screen_shot_2012_11_11_at_16_56_1 {
+	top: 102px;
+	left: 31px;
+	width: 156px;
+	height: 177px;
+}
+
+#group {
+	top: 75px;
+	left: 15px;
+	width: 22px;
+	height: 19.25px;
+}
+
+#flecha {
+	top: 0px;
+	left: 0px;
+	width: 9.63px;
+	height: 19.25px;
+}
+
+
+#vector_ek7 {
+	top: 10px;
+	left: 0px;
+	width: 22px;
+	height: 0px;
+}
+
+
+
+/* Add your custom CSS here */
