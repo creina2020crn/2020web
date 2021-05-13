@@ -1,0 +1,261 @@
+
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+
+div { position: absolute; }
+
+#content-container {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+
+#menuToggle
+{
+	margin: 0;
+  display: block;
+  position: relative;
+  top: 2.7rem;
+  left: 1rem;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #0BF7B9;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 2.5rem;
+  height: 2rem;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 2.0625rem;
+  height: 0.25rem;
+  margin-bottom: 0.3125rem;
+  position: relative;
+
+  background: #0B4384;
+  border-radius: 0.1875rem;
+
+  z-index: 1;
+
+  transform-origin: 0.25rem 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-0.125rem, -0.0625rem);
+  background: #0BF7B9;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -0.0625rem);
+}
+
+#menu
+{
+  position: absolute;
+  width: 18.75rem;
+  margin: -6.25rem 0 0 -3.125rem;
+  padding: 3.125rem;
+  padding-top: 7.8125rem;
+
+  background: #0B4384;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 0.625rem 0;
+  font-size: 1.375rem;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+
+#_bg__info {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 667px;
+	background:rgba(255,255,255,1);
+}
+
+
+#banner {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 55px;
+	background:rgba(255,255,255,1);
+}
+
+
+#vector {
+	top: 55px;
+	left: 0px;
+	width: 375px;
+	height: 654px;
+}
+
+
+#perfil{
+	top: 6px;
+	left: 320px;
+	width: 40px;
+	height: 40px;
+}
+
+
+#vector_ek2 {
+	top: 11px;
+	left: 322px;
+	width: 35px;
+	height: 35px;
+}
+
+
+#_o_ble {
+	top: 6px;
+	left: 139px;
+	width: 120px;
+	height: 67px;
+	overflow: hidden;
+	font-family: Arial Rounded MT Bold;
+	font-size: 36px;
+	text-align: left;
+	color:#0C4385;
+}
+
+
+#qui_som{
+	top: 188px;
+	left: 15px;
+	width: 353px;
+	height: 442px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#group_3 {
+	top: 81px;
+	left: 132px;
+	width: 107px;
+	height: 107px;
+}
+
+#vector_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 107px;
+	height: 107px;
+}
+
+
+#vector_ek4 {
+	top: 48px;
+	left: 48px;
+	width: 10.19px;
+	height: 28.02px;
+}
+
+
+#vector_ek5 {
+	top: 28px;
+	left: 47px;
+	width: 12.74px;
+	height: 12.74px;
+}
+
+#group {
+	top: 75px;
+	left: 15px;
+	width: 22px;
+	height: 19.25px;
+}
+
+#flecha{
+	top: 0px;
+	left: 0px;
+	width: 9.63px;
+	height: 19.25px;
+}
+
+
+#vector_ek7 {
+	top: 10px;
+	left: 0px;
+	width: 22px;
+	height: 0px;
+}
+
+
+
+/* Add your custom CSS here */
