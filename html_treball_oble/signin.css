@@ -11,7 +11,13 @@ img {
 	padding: 0;
 }
 
+input[type=text]{
+outline: none;
+}
 
+input[type=password]{
+outline: none;
+}
 
 div { position: absolute; }
 
@@ -118,6 +124,9 @@ div { position: absolute; }
 	color:#FFFFFF;
 }
 
+.tot{
+	margin-top: -1.5rem;
+}
 
 #vector {
 	top: 565px;
@@ -151,54 +160,48 @@ div { position: absolute; }
 	background:rgba(255,255,255,0);
 }
 
-#group_4 {
+#usu {
 	top: 205px;
-	left: 49px;
-	width: 278.01px;
-	height: 59.51px;
+	left: 3rem;
+	width: 18rem;
+	height: 5rem;
+	background-image: url(img/img_signin/espai_usuari.png);
+	background-repeat: no-repeat;
+	background-position: center bottom 0.5rem;
 }
+
+#contra {
+	top: 279px;
+	left: 3rem;
+	width: 18rem;
+	height: 5rem;
+	background-image: url(img/img_signin/espai_contra.png);
+	background-repeat: no-repeat;
+	background-position: center bottom 0.5rem;
+}
+
+.indicador {
+	transform: translateX(1.4rem) translateY(0.8rem);
+	position: relative;
+	height: 1rem;
+	font-family: Roboto;
+	font-size: 1.1rem;
+	color:#74ADC6;
+}
+
+
 
 #espai_usuari {
-	margin: 1rem 0 0 0.5rem;
+	margin: 0.6rem 0 0 0.5rem;
 	left: 0px;
-	width: 278.01px;
-	height: 30px;
+	width: 16.75rem;
+	height: 2.5rem;
 	border: none;
 	font-size: 15px;
-	z-index: 5;
+	border-radius: 10px;
+	border-color: transparent;
 }
 
-
-#usuari {
-	top: -10px;
-	left: 18px;
-	width: 84px;
-	height: 20px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 18px;
-	text-align: left;
-	color:#74ADC6;
-}
-
-#group_6 {
-	top: 279px;
-	left: 50px;
-	width: 278.01px;
-	height: 56.51px;
-}
-
-#contrasenya {
-	top: 0px;
-	left: 16px;
-	width: 156px;
-	height: 37px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 18px;
-	text-align: left;
-	color:#74ADC6;
-}
 
 #group_5 {
 	top: 10px;
@@ -207,15 +210,7 @@ div { position: absolute; }
 	height: 47.01px;
 }
 
-#espai_contra {
-	margin: 1rem 0 0 0.5rem;
-	left: 0px;
-	width: 278.01px;
-	height: 30px;
-	border: none;
-	font-size: 15px;
-	z-index: 3;
-}
+
 
 #group_7 {
 	top: 57px;
