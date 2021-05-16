@@ -1,0 +1,265 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	font-family: "Arial";
+}
+
+img {
+	position: absolute;
+	display: block;
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+
+input[type=text]{
+outline: none;
+}
+
+input[type=password]{
+outline: none;
+}
+
+div {
+	position: absolute;
+}
+
+#content-container {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#_bg__registre {
+	top: 0rem;
+	left: 0rem;
+	width: 23.4375rem;
+	height: 41.6875rem;
+	background:rgba(255,255,255,1);
+}
+
+
+#fondo_web_1 {
+	top: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 41.6875rem;
+}
+
+
+#rectangle_inicia {
+	top: 23.5625rem;
+	left: 5.0625rem;
+	width: 13.375rem;
+	height: 2.6875rem;
+	-ms-border-radius: 1.3125rem;
+	-o-border-radius: 1.3125rem;
+	-moz-border-radius: 1.3125rem;
+	-webkit-border-radius: 1.3125rem;
+	border-radius: 1.3125rem;
+	background:rgba(120,243,189,1);
+}
+
+
+#rectangle_registre{
+	top: 28.9375rem;
+	left: 3.0625rem;
+	width: 17.375rem;
+	height: 3rem;
+	-ms-border-radius: 0.9375rem;
+	-o-border-radius: 0.9375rem;
+	-moz-border-radius: 0.9375rem;
+	-webkit-border-radius: 0.9375rem;
+	border-radius: 0.9375rem;
+	background:rgba(98.37,170.66,233.75,1);
+}
+
+
+#encara_no_tens_usuari_ {
+	top: 32.625rem;
+	left: 7.8125rem;
+	width: 8.4375rem;
+	height: 1.3125rem;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 0.75rem;
+	text-align: left;
+	color:#B7B7B7;
+}
+
+
+#has_oblidat_la_teva_contrasenya_ {
+	top: 21.5rem;
+	left: 6.3125rem;
+	width: 11.5625rem;
+	height: 1.25rem;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 0.75rem;
+	text-align: left;
+	color:#ACACAC;
+}
+
+
+#txt_inicia {
+	top: 24.1875rem;
+	left: 9.8125rem;
+	width: 4.5625rem;
+	height: 2.3125rem;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 1.125rem;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#txt_registra {
+	top: 29.75rem;
+	left: 7.8125rem;
+	width: 7.75rem;
+	height: 2.25rem;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 1.125rem;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+.tot{
+	margin-top: -1.5rem;
+}
+
+#vector {
+	top: 35.3125rem;
+	left: 10.0625rem;
+	width: 3.4375rem;
+	height: 3.4375rem;
+}
+
+
+#vector_ek1 {
+	top: 35.25rem;
+	left: 16.75rem;
+	width: 3.5rem;
+	height: 3.4375rem;
+}
+
+
+#vector_ek2 {
+	top: 35.25rem;
+	left: 3.375rem;
+	width: 3.4375rem;
+	height: 3.4375rem;
+}
+
+
+#rectangle_34 {
+	top: 10.875rem;
+	left: 4rem;
+	width: 4.5625rem;
+	height: 1.1875rem;
+	background:rgba(255,255,255,0);
+}
+
+#usu {
+	top: 12.8125rem;
+	left: 3rem;
+	width: 18rem;
+	height: 5rem;
+	background-image: url(img/img_signin/espai_usuari.png);
+	background-repeat: no-repeat;
+	background-position: center bottom 0.5rem;
+}
+
+#contra {
+	top: 17.4375rem;
+	left: 3rem;
+	width: 18rem;
+	height: 5rem;
+	background-image: url(img/img_signin/espai_contra.png);
+	background-repeat: no-repeat;
+	background-position: center bottom 0.5rem;
+}
+
+.indicador {
+	transform: translateX(1.4rem) translateY(0.8rem);
+	position: relative;
+	height: 1rem;
+	font-family: Roboto;
+	font-size: 1.1rem;
+	color:#74ADC6;
+}
+
+
+
+#espai_usuari {
+	margin: 0.6rem 0 0 0.5rem;
+	left: 0rem;
+	width: 16.75rem;
+	height: 2.5rem;
+	border: none;
+	font-size: 0.9375rem;
+	border-radius: 0.625rem;
+	border-color: transparent;
+}
+
+
+#group_5 {
+	top: 0.625rem;
+	left: 0rem;
+	width: 17.3756rem;
+	height: 2.9381rem;
+}
+
+
+
+#group_7 {
+	top: 3.5625rem;
+	left: 7.6875rem;
+	width: 8.1194rem;
+	height: 2.6875rem;
+}
+#sign_in {
+	top: 0rem;
+	left: 0rem;
+	width: 8.0056rem;
+	height: 2.5731rem;
+}
+
+#sign_in_ek1 {
+	top: 0rem;
+	left: 0rem;
+	width: 9.4431rem;
+	height: 4.1356rem;
+	overflow: hidden;
+	font-family: Cabin;
+	font-size: 2.25rem;
+	font-weight: bold;
+	text-align: left;
+	color:#78F3BD;
+}
+
+#sign_in_ek2 {
+	top: 0.125rem;
+	left: 0.125rem;
+	width: 8.0056rem;
+	height: 2.5731rem;
+}
+
+#sign_in_ek3 {
+	top: 0rem;
+	left: 0rem;
+	width: 9.4431rem;
+	height: 4.1356rem;
+	overflow: hidden;
+	font-family: Cabin;
+	font-size: 2.25rem;
+	font-weight: bold;
+	text-align: left;
+	color:#62AAE9;
+}
