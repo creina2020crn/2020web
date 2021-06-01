@@ -1,0 +1,327 @@
+
+body {
+	margin: 0rem;
+	padding: 0rem;
+	font-family:"Arial";
+	overflow-x:hidden;
+}
+
+
+img {
+	position: absolute;
+	display: block;
+	margin: 0rem;
+	border: none;
+	padding: 0rem;
+}
+
+
+div {
+	position: absolute;
+}
+
+
+#menuToggle
+{
+	margin: 0;
+  display: block;
+  position: relative;
+  top: 2.7rem;
+  left: 1rem;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #0BF7B9;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 2.5rem;
+  height: 2rem;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 2.0625rem;
+  height: 0.25rem;
+  margin-bottom: 0.3125rem;
+  position: relative;
+
+  background: #0B4384;
+  border-radius: 0.1875rem;
+
+  z-index: 1;
+
+  transform-origin: 0.25rem 0rem;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-0.125rem, -0.0625rem);
+  background: #0BF7B9;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -0.0625rem);
+}
+
+#menu
+{
+  position: absolute;
+  width: 18.75rem;
+  margin: -6.25rem 0 0 -3.125rem;
+  padding: 3.125rem;
+  padding-top: 7.8125rem;
+
+  background: #0B4384;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 0.625rem 0;
+  font-size: 1.375rem;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+#content-container {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+#_bg__contacta_amb_nosaltres {
+	top: 0rem;
+	left: 0rem;
+	width: 23.4375rem;
+	height: 41.6875rem;
+	background:rgba(255,255,255,1);
+}
+
+
+#vector {
+	top: 3.4375rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+}
+
+#perfil{
+	top: 0rem;
+	right: 0rem;
+	margin: 0.4rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	z-index: 2;
+}
+
+#fonsblanc {
+	top: 4.1875rem;
+	left: 1.0625rem;
+	width: 100%;
+	height: 60rem;
+	border: 0.0625rem solid #d2d2d2;
+	background:rgba(255,255,255,1);
+}
+
+
+#banner {
+	top: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 3.4375rem;
+	background:rgba(255,255,255,1);
+}
+
+
+
+#vector_ek2 {
+	top: 0.6875rem;
+	left: 20.125rem;
+	width: 2.1875rem;
+	height: 2.1875rem;
+}
+
+
+#instagram {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 43rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+	font-family: Roboto;
+	font-size: 1rem;
+	text-align: center;
+	margin: 2rem;
+	color:#000000;
+}
+
+
+#_o_ble {
+	display: inline;
+	top: 0.5rem;
+	text-align: center;
+	height: 4.1875rem;
+	width: 100%;
+	overflow: hidden;
+	font-family: Arial Rounded MT Bold;
+	font-size: 2.25rem;
+	color: #0B4384;
+}
+
+
+#tens_cap_dubte__contactan_s {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 4rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+	font-family: Roboto;
+	font-size: 1.125rem;
+	font-weight: bold;
+	margin: 2rem;
+	text-align: center;
+	color:#10335D;
+}
+
+
+#info{
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 23.8125rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+	font-family: Roboto;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 2rem;
+	color:#000000;
+}
+
+
+#les_nostres_xarxes_socials {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 40rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 2rem;
+	text-align: center;
+	color:#11345D;
+}
+
+
+#envian_s_un_e_mail_ {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 20.25rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+	font-family: Roboto;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 2rem;
+	color:#11345D;
+}
+
+
+#capt {
+	top: 11rem;
+	left: 8.5rem;
+	width: 6.4375rem;
+	height: 8.125rem;
+}
+
+#group {
+	top: 4.625rem;
+	left: 1.6875rem;
+	width: 1.375rem;
+	height: 1.2031rem;
+}
+
+#flecha {
+	top: 0rem;
+	left: 0rem;
+	width: 0.6019rem;
+	height: 1.2031rem;
+}
+
+
+#vector_ek4 {
+	top: 0.625rem;
+	left: 0rem;
+	width: 1.375rem;
+	height: 0rem;
+}
