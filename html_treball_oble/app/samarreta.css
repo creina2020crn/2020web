@@ -1,0 +1,476 @@
+
+body {
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+font-family: "Arial";
+}
+
+
+img {
+	position: absolute;
+	display: block;
+	margin: 0rem;
+	border: none;
+	padding: 0rem;
+}
+
+div {
+	position: absolute;
+}
+
+#menuToggle{
+	margin: 0;
+  display: block;
+  position: relative;
+  top: 2.7rem;
+  left: 1rem;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #0BF7B9;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 2.5rem;
+  height: 2rem;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 2.0625rem;
+  height: 0.25rem;
+  margin-bottom: 0.3125rem;
+  position: relative;
+
+  background: #0B4384;
+  border-radius: 0.1875rem;
+
+  z-index: 1;
+
+  transform-origin: 0.25rem 0rem;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-0.125rem, -0.0625rem);
+  background: #0BF7B9;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -0.0625rem);
+}
+
+#menu
+{
+  position: absolute;
+  width: 18.75rem;
+  margin: -6.25rem 0 0 -3.125rem;
+  padding: 3.125rem;
+  padding-top: 7.8125rem;
+
+  background: #0B4384;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 0.625rem 0;
+  font-size: 1.375rem;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+#content-container {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto; }
+
+#_bg__samarreta {
+	top: 0rem;
+	left: 0rem;
+	width: 23.4375rem;
+	height: 41.6875rem;
+	background:rgba(255,255,255,1);
+}
+
+
+#vector {
+	top: 3.1875rem;
+	left: 0rem;
+	width: 100%;
+	height: auto;
+}
+
+
+#fonsblanc {
+	opacity:0.7;
+	top: 5.375rem;
+	left: 0.5rem;
+	width: 100%;
+	height: 52.25rem;
+	border: 0.0625rem solid #d2d2d2;
+	background:rgba(255,255,255,0.71);
+}
+
+
+#banner {
+	top: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 3.4375rem;
+	background:rgba(255,255,255,1);
+}
+
+
+#perfil {
+	top: 0rem;
+	right: 0rem;
+	margin: 0.4rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	z-index: 2;
+}
+
+
+
+#_o_ble {
+	display: inline;
+	top: 0.5rem;
+	text-align: center;
+	height: 4.1875rem;
+	width: 100%;
+	overflow: hidden;
+	font-family: Arial Rounded MT Bold;
+	font-size: 2.25rem;
+	color: #0B4384;
+}
+
+
+#samarreta {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 7.5rem;
+	left: 3rem;
+	width: 100%;
+	height: 7.25rem;
+	font-family: Roboto;
+	font-size: 0.75rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#cami_negra {
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 6.9375rem;
+	left: -13rem;
+	width: 9.875rem;
+	height: 13.9375rem;
+}
+
+
+#preu__15_99__ {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 23.4375rem;
+	left: 7rem;
+	width: 100%;
+	height: auto;
+	font-family: Arimo;
+	font-size: 1.125rem;
+	font-weight: bold;
+	text-align: center;
+	color:#060606;
+}
+
+
+#guia_de_talles {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 24.875rem;
+	left: -10.5rem;
+	width: 100%;
+	height: auto;
+	font-family: Almarai;
+	font-size: 0.875rem;
+	text-decoration: underline;
+	text-align: center;
+	color:#000000;
+}
+
+.caixes{
+	left: -11rem;
+	width: 100%;
+}
+
+.talles{
+	left: -9.5rem;
+	width: 100%;
+}
+
+#rectangle_21 {
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 27.4375rem;
+	left: 1.25rem;
+	width: 4.5625rem;
+	height: 1.875rem;
+	background:rgba(241,197,124,1);
+}
+
+
+#rectangle_26 {
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 27.4375rem;
+	left: 6.375rem;
+	width: 4.5625rem;
+	height: 1.875rem;
+	background:rgba(241,197,124,1);
+}
+
+
+#rectangle_27 {
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 27.4375rem;
+	left: 11.625rem;
+	width: 4.5625rem;
+	height: 1.875rem;
+	background:rgba(166.81,166.81,166.81,1);
+}
+
+
+#rectangle_28 {
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 27.4375rem;
+	left: 16.75rem;
+	width: 4.5625rem;
+	height: 1.875rem;
+	background:rgba(241,197,124,1);
+}
+
+
+#rectangle_25 {
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 30.5rem;
+	left: 11.625rem;
+	width: 9.75rem;
+	height: 1.875rem;
+	background:rgba(73.31,73.31,73.31,1);
+}
+
+
+#s {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 27.75rem;
+	left: 1.875rem;
+	width: 100%;
+	height: auto;
+	font-family: Almarai;
+	font-size: 1.125rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#m {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 27.75rem;
+	left: 7rem;
+	width: 100%;
+	height: auto;
+	font-family: Almarai;
+	font-size: 1.125rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#l {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 27.75rem;
+	left: 12.375rem;
+	width: 100%;
+	height: auto;
+	font-family: Almarai;
+	font-size: 1.125rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#xl {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 27.75rem;
+	left: 17.625rem;
+	width: 100%;
+	height: auto;
+	font-family: Almarai;
+	font-size: 1.125rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#_afegir_al_carro {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 30.875rem;
+	left: 5.5rem;
+	width: 100%;
+	height: auto;
+	font-family: Almarai;
+	font-size: 0.875rem;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#entrega{
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 32.6875rem;
+	left: 5.5rem;
+	width: 100%;
+	height: 1.6875rem;
+	font-family: Almarai;
+	font-size: 0.5rem;
+	text-align: center;
+	color:#595858;
+}
+
+
+#desc {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 34.8125rem;
+	left: 1.6875rem;
+	width: 100%;
+	height: auto;
+	font-family: Roboto;
+	font-size: 0.625rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#cami_negra_petita{
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 14.8125rem;
+	left: -1rem;
+	width: 4.3137rem;
+	height: 6.0625rem;
+}
+
+
+#___esgotada__ {
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	top: 21.0625rem;
+	left: 7.1rem;
+	width: 100%;
+	height: auto;
+	font-family: Roboto;
+	font-size: 0.5625rem;
+	text-align: center;
+	color:#000000;
+}
+
+
+#cami_blanca{
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 14.8125rem;
+	left: 5rem;
+	width: 4.3125rem;
+	height: 6.0625rem;
+}
+
+
+#rectangle_35 {
+	margin-left: 50%;
+	margin-right: 50%;
+	opacity:0.6;
+	top: 14.8125rem;
+	left: 5rem;
+	width: 4.3125rem;
+	height: 6.0625rem;
+	background:rgba(196,196,196,0.67);
+}
